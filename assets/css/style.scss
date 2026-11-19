@@ -1,0 +1,249 @@
+
+---
+---
+
+@import "minima";
+
+/* Overall page */
+body {
+  background: #f3f6fc;
+  color: #263449;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.8;
+}
+
+/* Header */
+.site-header {
+  background: #ffffff;
+  border-top: 4px solid #3978d5;
+  border-bottom: 1px solid #e5eaf3;
+}
+
+.site-title {
+  color: #2458a6 !important;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+}
+
+/* Main article card */
+.page-content {
+  padding: 45px 0;
+}
+
+.page-content .wrapper {
+  max-width: 920px;
+}
+
+.post-content {
+  background: #ffffff;
+  padding: 45px 55px;
+  border: 1px solid #e4eaf4;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(30, 55, 90, 0.07);
+}
+
+/* Main title */
+.post-title {
+  color: #183b70;
+  font-size: 38px;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: -1px;
+  border-bottom: 3px solid #dce9fb;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+/* Section headings */
+.post-content h2 {
+  color: #2458a6;
+  font-size: 27px;
+  font-weight: 750;
+  margin-top: 48px;
+  margin-bottom: 18px;
+  padding-bottom: 9px;
+  border-bottom: 2px solid #e6eef9;
+}
+
+.post-content h3 {
+  color: #3675c9;
+  margin-top: 30px;
+}
+
+/* Paragraphs and links */
+.post-content p {
+  margin-bottom: 20px;
+}
+
+.post-content a {
+  color: #2868bd;
+  font-weight: 600;
+}
+
+.post-content a:hover {
+  color: #17447f;
+}
+
+/* Tables */
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 14px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.post-content th {
+  background: #2458a6;
+  color: #ffffff;
+  padding: 13px;
+  text-align: left;
+}
+
+.post-content td {
+  padding: 12px;
+  border-bottom: 1px solid #e5ebf4;
+}
+
+.post-content tr:nth-child(even) {
+  background: #f2f6fc;
+}
+
+/* Figures */
+.post-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 30px auto 12px;
+  border: 1px solid #e1e8f2;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(30, 55, 90, 0.08);
+}
+
+/* Figure captions */
+.post-content em {
+  color: #66758b;
+  font-size: 14px;
+}
+
+/* Blockquotes and highlighted content */
+.post-content blockquote {
+  background: #edf4ff;
+  border-left: 4px solid #3978d5;
+  padding: 16px 22px;
+  margin: 25px 0;
+  color: #345071;
+  border-radius: 0 10px 10px 0;
+}
+
+/* Footer */
+.site-footer {
+  background: #ffffff;
+  border-top: 1px solid #e3eaf4;
+  color: #66758b;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+  .post-content {
+    padding: 25px 20px;
+  }
+
+  .post-title {
+    font-size: 29px;
+  }
+
+  .post-content h2 {
+    font-size: 23px;
+  }
+
+  .post-content table {
+    font-size: 12px;
+  }
+}
+
+
+/* ===== KAWAII CAT THEME ===== */
+
+body {
+  background: #f8f5ff;
+}
+
+/* Cute cat introduction */
+.cat-intro {
+  text-align: center;
+  background: linear-gradient(135deg, #e9f2ff, #f7eaff, #fff1f5);
+  padding: 25px;
+  margin: 20px 0 35px;
+  border-radius: 22px;
+  border: 2px solid #e6dafa;
+}
+
+.cat-banner {
+  width: 100%;
+  max-width: 680px;
+  border-radius: 18px;
+  display: block;
+  margin: auto;
+}
+
+.cat-intro p {
+  color: #78609f;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 18px 0 5px;
+}
+
+.cat-intro span {
+  color: #a18abd;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+/* Pastel headings */
+.post-content h2 {
+  color: #8b6bb3;
+  border-bottom: 2px dashed #dfcbed;
+}
+
+.post-content h3 {
+  color: #d27d9d;
+}
+
+/* Cute table colors */
+.post-content th {
+  background: #9b83c5;
+}
+
+.post-content tr:nth-child(even) {
+  background: #faf4ff;
+}
+
+/* Cute figures */
+.post-content img {
+  border: 2px solid #eadcf5;
+  border-radius: 16px;
+}
+
+/* Soft article card */
+.post-content {
+  border: 1px solid #eadff5;
+  box-shadow: 0 8px 28px rgba(145, 112, 180, 0.10);
+}
+
+/* Cute links */
+.post-content a {
+  color: #b276aa;
+}
+
+.post-content a:hover {
+  color: #80549e;
+}
+
+/* Mobile friendly */
+@media screen and (max-width: 600px) {
+  .cat-intro {
+    padding: 15px;
+  }
+}
