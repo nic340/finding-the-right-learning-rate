@@ -1,3 +1,5 @@
+##  How Learning Rate Shapes the Journey of a Small CNN
+
 <div class="cat-intro">
   <img src="cat-learning-banner.png"
        alt="Cute cat studying deep learning"
