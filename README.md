@@ -89,6 +89,12 @@ Based on this experiment, I learned that the learning rate can greatly affect ho
 
 For this experiment, 0.001 was the best-performing learning rate for the CNN using Adam. I also learned that testing different settings and using multiple seeds are important when evaluating a model.
 
+## Code and Reproducibility
+
+The experiment notebook and figures are available in my GitHub repository:
+
+[Finding the Right Learning Rate](https://github.com/nic340/finding-the-right-learning-rate)
+
 ## References
 
 - Instructor-provided `Hyperparameters.ipynb` notebook, used as a guide and starting point.
